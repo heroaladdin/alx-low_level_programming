@@ -1,8 +1,8 @@
 #include<stdio.h>
+
 /**
-* main - Entry point
-*
-* Return: Always 0 (Success)
+* main - print the size of various types
+* Return: 0 if exited properly, non-zero otherwise
 */
 int main(void)
 {
@@ -13,4 +13,3 @@ int main(void)
         printf("Size of an int: %d byte(s)\n", sizeof(float));
         return (0);
 }
-
